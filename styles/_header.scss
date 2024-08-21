@@ -52,3 +52,17 @@ header {
     }
   }
 }
+
+// Responsive Design
+
+@media (max-width: 1230px) {
+  .navbar li {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-right a {
+    display: none;
+  }
+}
